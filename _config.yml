@@ -7,8 +7,13 @@ source:      .
 destination: ./_site
 plugins:     ./_plugins
 
+exclude: [README.md, LICENSE.txt]
+
 future:      true
 lsi:         false
 pygments:    false
 markdown:    maruku
 permalink:   pretty
+
+title: My Blog
+description: A breif description about your site

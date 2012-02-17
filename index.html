@@ -1,8 +1,19 @@
 ---
 layout: default
+title: Home
 ---
 
+<div class="row">
+    <div class="span9">
+        <p>A brief intro to your site.</p>
+    </div>
+</div>
 
-{% assign posts = site.posts %}
-{% assign listing_limit = 5 %}
-{% include post-listing.html %}
+<div class="row">
+    <div class="span9">
+        <h3>Latest Posts</h3>
+        {% assign posts = site.posts %}
+        {% assign listing_limit = 5 %}
+        {% include post-listing.html %}
+    </div>
+</div>

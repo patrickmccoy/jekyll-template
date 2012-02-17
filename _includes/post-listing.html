@@ -4,7 +4,7 @@
     Posted on {{ post.date | format_date }}
     {% unless no_category %}
       {% if post.category %}
-        in <a href="/categories/{{ post.category | slugize }}">{{ post.category }}</a>
+        in <a href="categories/{{ post.category | slugize }}">{{ post.category }}</a>
       {% endif %}
     {% endunless %}
   </h4>
